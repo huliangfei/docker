@@ -1,0 +1,6 @@
+vi /etc/profile
+
+http_proxy=http://f1225721:www123.@10.191.131.5:3128/
+https_proxy=http://f1225721:www123.@10.191.131.5:3128/
+no_proxy="localhost,127.0.0.1,10.*"
+export http_proxy https_proxy

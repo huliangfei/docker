@@ -1,0 +1,10 @@
+﻿架构：
+双主HA架构
+RS-Node01	10.172.114.201
+RS-Node02	10.172.114.202
+
+2.配置过程
+2.1分别在两台主机上pull mysql的镜像
+docker pull mysql:5.7.17
+2.2启动mysql容器并映射本地磁盘文件到mysql镜像中
+docker run -name rancher-mysql01 
